@@ -1,0 +1,30 @@
+.login {
+	border-bottom: none;
+}
+
+
+.header img {
+	max-width: 80%;
+	height: auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+
+}
+
+
+
+.container {
+	text-align: center;
+	color: white;
+}
+
+.newUser {
+	text-align: center;
+	margin: auto;
+}
+body {
+	/*background: rgb(2,0,36);*/
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(119,13,6,1) 0%, rgba(255,255,255,1) 100%);
+}

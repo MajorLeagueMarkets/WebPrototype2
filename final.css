@@ -1,0 +1,138 @@
+
+
+/*nav color*/
+.myNav .navbar-brand{
+	color: white;
+	/*use linear gradient*/
+
+}
+/*active tab*/
+ .navbar-light .navbar-nav .active>.nav-link{
+	color: #770D06;
+}
+
+.col {
+	padding: 30px;
+}
+
+.row  {
+	border-bottom: solid black 2px;
+	padding-bottom: 15px;
+}
+
+
+.trade {
+	border-bottom: none;
+}
+
+.sportsOwl {
+	max-width: 100%;
+}
+
+/*fix image and have them swap when minimized*/
+
+
+#portfolio {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.header img {
+	max-width: 80%;
+	height: auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+
+}
+
+.header {
+	position: relative;
+}
+
+ .header .hover {
+ 	text-align: center;
+ 	position: absolute;
+ 	color: white;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	visibility: hidden;
+ 	background-color: rgba(0,0,0,.8);
+ 	
+
+
+ }
+
+
+ .header:hover .hover{
+ 	visibility: visible;
+
+ }
+
+.container {
+	text-align: center;
+}
+
+.summary {
+	text-align: center;
+}
+
+#history {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#rankingsTable {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	
+}
+
+#pricesTable {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.summary{
+	font-family: 'Cinzel', serif;
+}
+
+
+tbody img {
+	width: 25%;
+}
+
+
+/*table stripes*/
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+	/*background-color: #770D06;
+	color: white;*/
+}
+
+/*table color hover*/
+tr:hover {
+	background-color: #770D06;
+	/*background-color: black;*/
+	color: white;
+}
+
+th {
+	background-color: #770D06;
+	color: white;
+}
+
+
+
+/*chage background to red linear gradient*/
+/*body {
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(119,13,6,1) 0%, rgba(255,255,255,1) 100%);
+}*/
